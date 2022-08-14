@@ -10,6 +10,24 @@
     <div class="panel">
       <nav>
         <ul class="header">
+          <li style="margin: 8px" class="headerli">
+            <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl"
+              >Gmail</a
+            >
+          </li>
+         
+          <li style="margin: 8px; margin-left: -2px;" class="headerli">
+            <a
+              href="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl"
+              >Images</a
+            >
+          </li>
+          <li style="margin: 8px" class="headerli">
+            <a href="https://www.google.com.tr/intl/en/about/products?tab=wh"
+              ><img src="/assets/appsbutton.svg" alt="" style="width: 16px; height: 16px; margin-right: 3px;"></a
+            >
+          </li>
+          
           <li class="pic headerli">
             <a href="https://www.github.com/elanur" target="_blank"
               ><img id="round"
@@ -18,22 +36,7 @@
                 style="margin-right: 1px;"
             /></a>
           </li>
-          <li style="margin: 8px" class="headerli">
-            <a href="https://www.google.com.tr/intl/en/about/products?tab=wh"
-              ><img src="/assets/appsbutton.svg" alt="" style="width: 16px; height: 16px; margin-right: 3px;"></a
-            >
-          </li>
-          <li style="margin: 8px; margin-left: -2px;" class="headerli">
-            <a
-              href="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl"
-              >Images</a
-            >
-          </li>
-          <li style="margin: 8px" class="headerli">
-            <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl"
-              >Gmail</a
-            >
-          </li>
+
         </ul>
       </nav>
       <div class="container">
@@ -65,8 +68,15 @@
                 class="input"
                 maxlength="2048"
                 autofocus="true"
+                autocomplete="off"
+                spellcheck="false"
+                role="combobox"
+                placeholder="Google'da arama yapın veya bir url yazın"
+                aria-live="polite"
               />
+              
             </div>
+            <button id="sesileara" title="Sese göre ara"><img class="voice" src="assets/voice.png" alt=""></button>
           </div>
         </div>
       </div>
@@ -120,5 +130,6 @@
         </li>
       </ul>
     </nav>
+   
   </body>
 </html>
